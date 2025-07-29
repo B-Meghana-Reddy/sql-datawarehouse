@@ -40,7 +40,7 @@ These views support reporting tools and analytical queries.
 
 ---
 
-## ✅ Data Quality Checks
+### ✅ Data Quality Checks
 
 ### Silver Layer
 Validates:
@@ -60,7 +60,7 @@ Validates:
 
 ---
 
-## 🛠️ Stored Procedures
+### 🛠️ Stored Procedures
 
 | Procedure | Description |
 |----------|-------------|
@@ -72,19 +72,3 @@ Defined in:
 - `stored_procedure_silver.sql`
 
 ---
-
-## 📁 File Structure
-
-```
-├── initial.sql
-├── bronze_ddl.sql
-├── silver_ddl.sql
-├── gold_ddl.sql
-├── stored_procedure_ddl.sql
-├── stored_procedure_silver.sql
-├── Quality_Check_Silver.sql
-├── Quality_Check_Gold.sql
-└── datasets/
-    ├── source_crm/
-    └── source_erp/
-```
